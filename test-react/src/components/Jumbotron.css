@@ -1,0 +1,95 @@
+.jumbotron {
+    background-image: url(../images/background.png);
+    height: 500px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 10rem 20rem;
+}
+
+.container h5 {
+    font-size: 55px;
+    text-align: center;
+}
+
+.searchform {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.search {
+    float: left;
+    width: 55%;
+    height: 38px;
+    border-color: #fff;
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: .25rem 0 0 .25rem;
+    
+}
+
+.dropdown, .dropup {
+    position: relative;
+    float: left;
+    border-left-style: dotted;
+    border-right-style: dotted; 
+    border-color: #595a5b;
+}
+
+.btn-secondary {
+    border-color: #fff;
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0;
+}
+
+.btn-secondary:hover {
+    color: #292b2c;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.formname {
+    width: 120px;
+    height: 38px;
+    border-color: #fff;
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+}
+
+.submit {
+    width: 50px;
+    height: 38px;
+    border-color: #fff;
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .container h5 {
+        font-size: 35px;
+        text-align: center;
+    }
+    .jumbotron {
+        padding: 10rem 8rem;
+    }
+}
+
+@media only screen and (max-width: 998px) {
+    .container h5 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .jumbotron {
+        padding: 10rem 8rem;
+    }
+}

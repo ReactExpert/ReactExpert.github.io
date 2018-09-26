@@ -1,0 +1,46 @@
+.bg-inverse {
+    background-color: #fff!important;
+}
+
+.navbar-brand {
+    color: #000 !important;
+}
+
+.nav-link {
+    color: #000 !important;
+}
+
+.mr-auto {
+    margin-right: auto!important;
+    margin-left: 45px;
+}
+.navbar-toggleable-md .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.navbar-inverse .navbar-toggler {
+    color: #000 !important;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: .5rem 2.5rem;
+    font-size: 1rem;
+    border-radius: .2rem;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1dc1dd;
+    border-color: #1dc1dd;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #16f8f5;
+    border-color: #16f8f5;
+}
+
+.rounded-circle {
+    margin-left: 20px;
+}
