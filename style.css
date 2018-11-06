@@ -1,0 +1,626 @@
+* {
+    margin :0;
+    padding :0; 
+}
+
+.example-header {
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    z-index: 99;
+    position: relative;
+}
+
+.Logo {
+    width: 281px;
+    height: 60px;
+}
+
+.key {
+    width: 70%;
+    height: 500px;;
+    padding-top: 380px;
+}
+
+#mainNav {
+    margin-bottom: 0;
+    padding: 10px 0;
+    background-color: #232021 !important;
+}
+
+.top-header .container{
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.navbar-toggler:not(:disabled):not(.disabled) {
+    margin-right: 20px;
+}
+
+.fixed-top {
+    position: relative !important;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.fab {
+    font-size: 25px;
+}
+
+.top-header .contact-number {
+    padding-top: 20px !important;
+    color: #c9982c;
+    margin-right: 4px;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.top-phonenumber {
+    padding-top: 10px;
+}
+
+.navbar-expand-md .navbar-nav .nav-link{
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+header.masthead {
+    background-image: url(./images/header.png);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* .Homeowners-background {
+    background-image: url(./images/1900x1080.png) !important;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.Speciality-background {
+    background-image: url(./images/1900x1080.png) !important;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.Umbrella-background {
+    background-image: url(./images/1900x1080.png) !important;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.AutoInsurance-background {
+    background-image: url(./images/1900x1080.png) !important;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+} */
+
+.section-Homeowners {
+    background-image: url(./images/Homeowners.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.section-Umbrella {
+    background-image: url(./images/umbrella.jpg) !important;
+    background-position: center center;
+    background-size: cover;
+}
+
+.section-AutoInsurance {
+    background-image: url(./images/Auto-insurance.png) !important;
+    background-position: center center;
+    background-size: cover;
+}
+
+.section-AutoInsurance h2{
+    padding-top: 50px;
+    font-weight: 600;
+    color: #c9982c;
+    font-size: 48px;
+    margin: 0;
+}
+
+.section-AutoInsurance h3 {
+    font-weight: 500;
+    font-size: 30px;
+    padding-top: 10px;
+    color: #c9982c;
+    margin: 0;
+}
+
+.section-AutoInsurance p {
+    color: #212529;
+    padding-top: 40px;
+    font-size: 22px;
+}
+
+.section-Umbrella h2 {
+    padding-top: 70px;
+    font-weight: 600;
+    color: #eeeeee;
+    font-size: 48px;
+    margin: 0;
+}
+
+.section-Umbrella h3 {
+    font-weight: 500;
+    font-size: 30px;
+    padding-top: 10px;
+    color: #eeeeee;
+    margin: 0;
+}
+
+.section-Speciality h2 {
+    padding-top: 50px;
+    font-weight: 600;
+    color: #c9982c;
+    font-size: 48px;
+    margin: 0;
+}
+
+.section-Speciality h3 {
+    font-weight: 500;
+    font-size: 30px;
+    padding-top: 10px;
+    color: #c9982c;
+    margin: 0;
+}
+
+
+.portfolio-item {
+    padding-top: 50px;
+}
+
+b, strong {
+    font-size: 68px;
+}
+
+@media (min-width: 992px){
+    header.masthead {
+        height: 100vh;
+        min-height: 650px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+.text-faded {
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.section-about h2{
+    padding-top: 50px;
+    font-weight: 600;
+    color: #c9982c;
+    font-size: 48px;
+    margin: 0;
+}
+
+.line-shape {
+    width: 80px;
+    height: 5px;
+    background-color: #c9982c;
+    margin: 30px auto;
+}
+
+.btn-primary {
+    margin: 0 auto;
+    color: #fff;
+    background-color: #c9982c !important;
+    border-color: #c9982c !important;
+    padding: 0.7rem 3rem !important;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.img-fluid {
+    margin-left: auto!important;
+    width: 45px !important;
+    height: 45px !important;
+}
+
+.icon-title h5{
+    padding-top: 25px !important;
+    color: #c9982c;
+}
+
+#qbootstrap-register {
+    background-image: url(./images/contact.png);
+    background-position: 50% -49.6953px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.section-contact h2 {
+    padding-top: 50px;
+    font-weight: 600;
+    color: #c9982c;
+    font-size: 48px;
+    margin: 0;
+}
+
+.section-contact h3 {
+    font-weight: 600;
+    color: #eeeeee;
+    font-size: 40px;
+    margin: 0;
+}
+
+.contact-title {
+    padding-top: 30px;
+}
+
+.contact-title h5{
+    color: #eeeeee;
+}
+
+.contact-text{
+    margin: 0 auto;
+    color: #eeeeee;
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1.25rem;
+    padding-top: 30px;
+}
+
+.footer-menu {
+    background-color: #232021;
+}
+
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav-item {
+    float: left;
+}
+
+.nav-item a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #eeeeee !important;
+}
+
+.section-Proud h2{
+    padding-top: 50px;
+    font-weight: 600;
+    color: #c9982c;
+    font-size: 48px;
+    margin: 0;
+}
+
+.footer-menu {
+    text-align: center;
+}
+
+.footer-text p {
+    color: #eeeeee;
+}
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+.card-text {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.Homeowners-title {
+    font-weight: 700;
+    color: #eeeeee;
+    font-size: 50px;
+    margin: 0;
+    padding-top: 80px;
+}
+
+.Homeowners-text {
+    font-weight: 600;
+    color: #eeeeee;
+    font-size: 20px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.portfolio-item ul {
+    padding-left: 70px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.footer-menu ul {
+    padding-top: 20px;
+}
+
+@media only screen and (max-width: 998px) {
+    .top-phonenumber {
+        padding-top: 5px;
+    }
+    .top-header .contact-number {
+        padding-top: 15px !important;
+    }
+    .portfolio-item {
+        padding-top: 50px;
+        max-width: 50%;
+    }
+    .portfolio-item ul {
+        padding-left: 50px !important;
+        width: 75% !important;
+        margin: 0 auto;
+    }
+    .Homeowners-title {
+        font-weight: 700;
+        color: #eeeeee;
+        font-size: 50px;
+        margin: 0;
+        padding-top: 25px;
+    }
+    ul {
+        padding-left: 10px;
+        width: 90% !important;
+        margin: auto;
+    }
+    .nav-item a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 22px;
+        text-decoration: none;
+    }
+    .key {
+        width: 20% !important;
+        height: 220px;
+        padding-top: 50px;
+    }
+    .container {
+        max-width: 950px !important;
+    }
+}
+
+
+@media only screen and (max-width: 910px) {
+    .key {
+        width: 20%;
+        height: 220px;
+        padding-top: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 785px) {
+    .key {
+        width: 25% !important;
+    }
+
+    #mobile-nav-toggle {
+        display: inline;
+        position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 999;
+    margin: 20px 20px 0 0;
+    border: 0;
+    background: none;
+    font-size: 24px;
+    display: none;
+    transition: all 0.4s;
+    outline: none;
+    cursor: pointer;
+    }
+}
+
+
+@media only screen and (max-width: 650px) {
+    .portfolio-item ul {
+        padding-left: 45px !important;
+        width: 80% !important;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .top-header .contact-number {
+        display: none;
+    }
+    b, strong {
+        font-size: 55px;
+    }
+    .text-uppercase {
+        padding-top: 50px;
+    }
+    .text-faded {
+        font-size: 22px;
+        padding-top: 20px;
+    }
+    .footer-menu ul{
+        max-width: 330px !important; 
+    }
+    .nav-item a {
+        padding: 15px 3px;
+    }
+    .card-text {
+        width: 85%;
+        margin: 0 auto;
+    }
+    ul {
+        padding-left: 20px;
+        width: 90% !important;
+        margin: auto;
+    }
+    .section-Proud h2 {
+        font-size: 43px;
+    }
+    .contact-text{
+        font-size: 1rem;
+        padding: 10px;
+    }
+    .contact-title h5 {
+        font-size: 1rem;
+    }
+    .portfolio-item {
+        padding-top: 20px;
+        max-width: 100% !important;
+    }
+    .portfolio-item ul {
+        padding-left: 30px;
+        width: 90% !important;
+        margin: 0 auto;
+    }
+    .top-phonenumber p {
+        display: none;
+    }
+    .key {
+        width: 40% !important;
+        height: 160px;
+        padding-top: 50px;
+    }
+    .Homeowners-title{
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width:680px) {
+    ul.topnav li:not(:first-child) {display: none;}
+    ul.topnav li.icon {
+      float: right;
+      display: inline-block;
+    }
+  }
+  
