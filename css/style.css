@@ -21,13 +21,13 @@ body h1,h2,h3,h4,h5,h6{
 }
 /*-- header --*/
 #home {
-    background: url(../images/header-bg.png) no-repeat center top;
+    background: url(../images/IMG_0413.jpg) no-repeat center top;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    min-height:650px;
+    min-height:750px;
 	position: relative;
 }
 .top-header {
